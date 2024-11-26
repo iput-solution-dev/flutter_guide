@@ -35,17 +35,20 @@ flutter run
 - ### Floating action button
   ![スクリーンショット 2024-11-27 1 51 42](https://github.com/user-attachments/assets/c702b330-1b91-4d9e-8188-305e97ae427c)
   - [仕組み](https://m3.material.io/components/floating-action-button/guidelines)
-  - [プログラム](https://api.flutter.dev/flutter/material/FloatingActionButton-class.html)
+  - [プログラム](https://github.com/iput-solution-dev/flutter_guide/blob/main/lib/components/floating_action_button.dart)
+  - [ドキュメント](https://api.flutter.dev/flutter/material/FloatingActionButton-class.html)
     
 - ### Snackbar
   ![スクリーンショット 2024-11-27 1 53 56](https://github.com/user-attachments/assets/e539ada9-15f9-433c-bfda-d1c7eaf978f5)
   - [仕組み](https://m3.material.io/components/snackbar/guidelines)
-  - [プログラム](https://api.flutter.dev/flutter/material/SnackBar-class.html)
+  - [プログラム](https://github.com/iput-solution-dev/flutter_guide/blob/main/lib/components/floating_action_button.dart)
+  - [ドキュメント](https://api.flutter.dev/flutter/material/SnackBar-class.html)
     
 - ### Text filed
   ![スクリーンショット 2024-11-27 1 51 50](https://github.com/user-attachments/assets/09bec8ea-2a11-4c28-9167-5ea6e6b156ab)
   - [仕組み](https://m3.material.io/components/text-fields/guideline)
-  - [プログラム](https://api.flutter.dev/flutter/material/TextField-class.html)
+  - [プログラム](https://github.com/iput-solution-dev/flutter_guide/blob/main/lib/components/custom_text_field.dart)
+  - [ドキュメント](https://api.flutter.dev/flutter/material/TextField-class.html)
     
 - ### Image
   ![スクリーンショット 2024-11-27 1 51 56](https://github.com/user-attachments/assets/c26f47c7-db27-4993-ac03-9a457a4f43b0)
@@ -55,9 +58,11 @@ flutter run
 - ### Card
   ![スクリーンショット 2024-11-27 1 52 05](https://github.com/user-attachments/assets/40d22678-72f8-4348-9d6d-b90caf6b2d87)
   - [仕組み](https://m3.material.io/components/cards/guidelines)
-  - [プログラム](https://api.flutter.dev/flutter/material/Card-class.html)
+  - [プログラム](https://github.com/iput-solution-dev/flutter_guide/blob/main/lib/components/custom_card.dart)
+  - [ドキュメント](https://api.flutter.dev/flutter/material/Card-class.html)
     
 - ### Bottom navigation bar
   ![スクリーンショット 2024-11-27 1 52 20](https://github.com/user-attachments/assets/92cbd029-09cf-44e6-8344-614033986645)
   - [仕組み](https://m3.material.io/components/navigation-bar/guidelines)
-  - [プログラム](https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html)
+  - [プログラム](https://github.com/iput-solution-dev/flutter_guide/blob/main/lib/components/custom_bottom_navbar.dart)
+  - [ドキュメント](https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html)
