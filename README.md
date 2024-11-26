@@ -1,16 +1,49 @@
-# flutter_guide
+# Flutter　ウィジェットガイド
 
-A new Flutter project.
+## はじめる
+1. Flutterの環境構築 [こちらを参考に](https://qiita.com/shimizu-m1127/items/d8dfc2179bc01baaef6b)
+2. GitHub DeskTopをインストール [こちらを参考に](https://zenn.dev/iput_app/articles/841f47a0cf104a)
 
-## Getting Started
+## 参考
+- [参考](https://m3.material.io/components)
+  
+## ウィジェット一覧
+- ### Appbar
+  ![スクリーンショット 2024-11-27 1 51 18](https://github.com/user-attachments/assets/3c74a079-0f70-4061-bebb-487caa3aee8d)
+  - [仕組み](https://m3.material.io/components/top-app-bar/guidelines)
+  - [プログラム](https://api.flutter.dev/flutter/material/AppBar-class.html)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- ### Tabs
+  ![スクリーンショット 2024-11-27 1 51 31](https://github.com/user-attachments/assets/6537d8b9-53b8-44f8-9c96-61c7aa9a60d7)
+  - [仕組み](https://m3.material.io/components/tabs/guidelines)
+  - [プログラム](https://api.flutter.dev/flutter/material/TabBar-class.html)
+  
+- ### Floating action button
+  ![スクリーンショット 2024-11-27 1 51 42](https://github.com/user-attachments/assets/c702b330-1b91-4d9e-8188-305e97ae427c)
+  - [仕組み](https://m3.material.io/components/floating-action-button/guidelines)
+  - [プログラム](https://api.flutter.dev/flutter/material/FloatingActionButton-class.html)
+    
+- ### Snackbar
+  ![スクリーンショット 2024-11-27 1 53 56](https://github.com/user-attachments/assets/e539ada9-15f9-433c-bfda-d1c7eaf978f5)
+  - [仕組み](https://m3.material.io/components/snackbar/guidelines)
+  - [プログラム](https://api.flutter.dev/flutter/material/SnackBar-class.html)
+    
+- ### Text filed
+  ![スクリーンショット 2024-11-27 1 51 50](https://github.com/user-attachments/assets/09bec8ea-2a11-4c28-9167-5ea6e6b156ab)
+  - [仕組み](https://m3.material.io/components/text-fields/guideline)
+  - [プログラム](https://api.flutter.dev/flutter/material/TextField-class.html)
+    
+- ### Image
+  ![スクリーンショット 2024-11-27 1 51 56](https://github.com/user-attachments/assets/c26f47c7-db27-4993-ac03-9a457a4f43b0)
+  - 仕組み
+  - [プログラム](https://api.flutter.dev/flutter/widgets/Image-class.html)
+    
+- ### Card
+  ![スクリーンショット 2024-11-27 1 52 05](https://github.com/user-attachments/assets/40d22678-72f8-4348-9d6d-b90caf6b2d87)
+  - [仕組み](https://m3.material.io/components/cards/guidelines)
+  - [プログラム](https://api.flutter.dev/flutter/material/Card-class.html)
+    
+- ### Bottom navigation bar
+  ![スクリーンショット 2024-11-27 1 52 20](https://github.com/user-attachments/assets/92cbd029-09cf-44e6-8344-614033986645)
+  - [仕組み](https://m3.material.io/components/navigation-bar/guidelines)
+  - [プログラム](https://api.flutter.dev/flutter/material/BottomNavigationBar-class.html)
