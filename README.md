@@ -1,5 +1,5 @@
 # Flutter　ウィジェットガイド
-## 始める
+## はじめる
 1. Flutterの環境構築 [こちらを参考に](https://qiita.com/shimizu-m1127/items/d8dfc2179bc01baaef6b)
 2. GitHub DeskTopをインストール [こちらを参考に](https://zenn.dev/iput_app/articles/841f47a0cf104a)
 
