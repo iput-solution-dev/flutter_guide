@@ -1,4 +1,9 @@
 # Flutter　ウィジェットガイド
+## 始める
+1. Flutterの環境構築 [こちらを参考に](https://qiita.com/shimizu-m1127/items/d8dfc2179bc01baaef6b)
+2. GitHub DeskTopをインストール [こちらを参考に](https://zenn.dev/iput_app/articles/841f47a0cf104a)
+
+## クローン後にやること
 1. 現在の環境の確認
 ```
 flutter doctor
@@ -13,10 +18,6 @@ flutter pub get
 ``` 
 flutter run
 ```
-
-## はじめる
-1. Flutterの環境構築 [こちらを参考に](https://qiita.com/shimizu-m1127/items/d8dfc2179bc01baaef6b)
-2. GitHub DeskTopをインストール [こちらを参考に](https://zenn.dev/iput_app/articles/841f47a0cf104a)
 
 ## 参考
 - [参考](https://m3.material.io/components)
