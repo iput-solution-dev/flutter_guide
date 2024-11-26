@@ -1,4 +1,18 @@
 # Flutter　ウィジェットガイド
+1. 現在の環境の確認
+```
+flutter doctor
+```
+![スクリーンショット 2024-11-27 2 09 34](https://github.com/user-attachments/assets/41f9d739-c64f-4ba7-abe0-abf421eec6b4)
+
+2. パッケージをインストール
+```
+flutter pub get
+```
+3. ビルド
+``` 
+flutter run
+```
 
 ## はじめる
 1. Flutterの環境構築 [こちらを参考に](https://qiita.com/shimizu-m1127/items/d8dfc2179bc01baaef6b)
