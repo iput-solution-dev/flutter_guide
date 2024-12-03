@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
-class CustomCard extends StatelessWidget {
-  const CustomCard({super.key});
-
+class CardExample extends StatelessWidget {
+  const CardExample({super.key});
   @override
   Widget build(BuildContext context) {
     return const Padding(
