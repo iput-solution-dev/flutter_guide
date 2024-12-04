@@ -4,17 +4,15 @@ class PaddingExample extends StatelessWidget {
   const PaddingExample({super.key});
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Padding(
-          padding: const EdgeInsets.all(16.0),
-          child: Container(
-            color: Colors.blue,
-            child: const Text('この色の外枠に余白'),
-          ),
+    return Container(
+      color: Colors.blue,
+      child: Padding(
+        padding: const EdgeInsets.only(left: 20, bottom: 30),
+        child: Container(
+          color: Colors.blue,
+          child: const Text('左と下に余白'),
         ),
-      ],
+      )
     );
   }
 }

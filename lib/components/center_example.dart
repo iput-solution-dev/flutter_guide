@@ -9,7 +9,7 @@ class CenterExample extends StatelessWidget {
         color: Colors.blue,
         padding: const EdgeInsets.all(16.0),
         child: const Text(
-          '真ん中におく',
+          '真ん中に置く',
           style: TextStyle(color: Colors.white),
         ),
       ),

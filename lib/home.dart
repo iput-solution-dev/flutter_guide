@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_guide/components/drawer_example.dart';
 
 //　コンポーネント
 import 'components/text_example.dart';
@@ -15,6 +16,11 @@ import 'components/column_example.dart';
 import 'components/padding_example.dart';
 import 'components/listview_example.dart';
 import 'components/container_example.dart';
+import 'components/elevatedbutton_example.dart';
+import 'components/align_example.dart';
+import 'components/iconbutton_example.dart';
+
+
 
 class MyHomePage extends StatefulWidget { 
   const MyHomePage({super.key, required this.title});
@@ -32,6 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
       initialIndex: 1,
       length: 3,
       child: Scaffold(
+        drawer: const DrawerExample(),
         appBar: AppBar(
           backgroundColor: Colors.white,
           title: const Text('ウィジェット一覧'),
@@ -49,6 +56,23 @@ class _MyHomePageState extends State<MyHomePage> {
             ],
           ),
         ),
+        bottomNavigationBar: BottomNavigationBar(
+          items: const <BottomNavigationBarItem>[
+            BottomNavigationBarItem(
+              icon: Icon(Icons.home),
+              label: 'タブ1',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.message),
+              label: 'タブ2',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.brightness_5_sharp),
+              label: 'タブ3',
+            ),
+          ],
+          selectedItemColor: Colors.blue,
+        ),
 
         body: const SingleChildScrollView( // 画面が小さい場合にスクロール可能
           child: Padding( // スクロールビュー全体にパディングを追加
@@ -61,6 +85,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
                 CustomText(title: 'テキストボタン'),
                 TextButtonExample(),
+
+                CustomText(title: 'アイコンボタン'),
+                IconbuttonExample(),
 
                 CustomText(title: 'テキストフィールド'),
                 CustomTextField(),
@@ -99,7 +126,14 @@ class _MyHomePageState extends State<MyHomePage> {
                 ListViewExample(),
 
                 CustomText(title: 'コンテナ'),
-                ContainerExample(),  
+                ContainerExample(), 
+
+                CustomText(title: 'テキスト'),
+                ElevatedbuttonExample(),
+
+                CustomText(title: 'アライン'),
+                AlignExample(),
+
               ],
             ),
           ),
